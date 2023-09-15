@@ -74,7 +74,9 @@ The header looks like:
 1 0 0 0 0 0 0 0 | [donut 1] | [donut 2] | ... | 0 0 0 0 0 0 0 1
 ```
 
-If you send a full box of donuts, you have the option to upgrade to a baker's dozen for the same price as a dozen - replace the header packet with a heart, and then you can use the tailing packet as another data packet. <3 
+
+### A bonus? 
+If you send a full box of donuts, you have the option to upgrade to a `baker's dozen`` for the same price as a dozen - replace the header packet with a heart, and then you can use the tailing packet as another data packet. <3 
 
 ```
 1 1 0 0 0 0 1 1 | [exactly thirtteen donuts]
